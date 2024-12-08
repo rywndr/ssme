@@ -21,6 +21,7 @@ const MarkdownEditor: React.FC<MarkdownEditorProps> = ({
       onKeyDown={handleKeyDown}
       className="w-full h-full resize-none bg-background text-foreground p-2 outline-none"
       placeholder="Type your markdown here..."
+      spellCheck="false"
     />
   );
 };
